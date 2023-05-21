@@ -32,7 +32,7 @@ img{
 	top:10px;
 	left:10px;
 	animation-name:text-1__an ;
-	animation-duration: 5s;
+	animation-duration: 6s;
 	animation-iteration-count:infinite;
 }
 h3{
@@ -48,7 +48,7 @@ h3{
 	top:10px;
 	left:10px;
 	animation-name: text-2__an;
-	animation-duration: 5s;
+	animation-duration: 6s;
 	animation-iteration-count:infinite;
 
 }
@@ -61,7 +61,7 @@ h3{
 	left:0;
 	z-index: 0;
 	animation-name: background__an;
-	animation-duration: 5s;
+	animation-duration: 6s;
 	animation-iteration-count:infinite;
 }
 .button{
