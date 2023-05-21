@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+.main__container{
+	width:100%;
+}
+.image{
+	width:270px;
+	height: 215px;
+	margin:40px auto 0;
+	position:relative;
+}
+img{
+	max-width:100%;
+	max-height: 100%;
+	
+}
+.icon{
+	position:absolute;
+	width: 70px;
+	bottom:20px;
+	left:20px;
+	z-index: 2;
+	opacity:1;
+	
+}
+.text-1{
+	position:absolute;
+	width:185px;
+	top:10px;
+	left:10px;
+	animation-name:text-1__an ;
+	animation-duration: 5s;
+	animation-iteration-count:infinite;
+}
+h3{
+	color:white;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 26px;
+	font-weight: 300;
+}
+.text-2{
+	position:absolute;
+	width:270px;
+	top:10px;
+	left:10px;
+	animation-name: text-2__an;
+	animation-duration: 5s;
+	animation-iteration-count:infinite;
+
+}
+.background{
+	background:blue;
+	width:270px;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 0;
+	animation-name: background__an;
+	animation-duration: 5s;
+	animation-iteration-count:infinite;
+}
+.button{
+	background-color: rgb(92 175 67);
+	width: 178px;
+	padding: 8px 16px;
+	margin-top: 50px;
+	margin-left: 14px;
+	color: #fff;
+}
+h5{
+	color: #fff;
+	padding-left: 15px;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+@keyframes text-1__an{
+	0% {opacity:0;}
+	10% {opacity:0;}
+	20% {opacity:0;}
+	30% {opacity:1;}
+	35% {opacity:1;}
+	40% {opacity:1;}
+	50% {opacity:0;}
+	60% {opacity:0;}
+	70% {opacity:0;}
+	85% {opacity:0;}
+	90% {opacity:0;}
+	95% {opacity:0;}
+	100% {opacity:0;}
+}
+@keyframes text-2__an{
+	0% {opacity:0;}
+	25% {opacity:0;}
+	30% {opacity:0;}
+	40% {opacity:0;}
+	50% {opacity:0;}
+	60% {opacity:1;}
+	65% {opacity:1;}
+	70% {opacity:0;}
+	80% {opacity:0;}
+	90% {opacity:0;}
+	95% {opacity:0;}
+	98% {opacity:0;}
+	100% {opacity:0;}
+}
+@keyframes background__an{
+	0% {opacity:0;}
+	10% {opacity:0;}
+	20% {opacity:0;}
+	30% {opacity:0;}
+	40% {opacity:0;}
+	50% {opacity:0;}
+	60% {opacity:0;}
+	70% {opacity:0;}
+	75% {opacity:0;}
+	85% {opacity:1;}
+	90% {opacity:1;}
+	95% {opacity:1;}
+	100% {opacity:1;}
+}
